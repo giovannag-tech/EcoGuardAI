@@ -38,8 +38,6 @@ Desenvolver uma solução inteligente capaz de monitorar condições ambientais,
 
 ## 🏗️ Arquitetura do Projeto
 
-O EcoGuard AI foi desenvolvido com uma arquitetura simples e integrada:
-
 1. Geração de dados ambientais simulados.
 2. Armazenamento das leituras no PostgreSQL.
 3. Processamento dos dados com Python.
@@ -52,115 +50,7 @@ O EcoGuard AI foi desenvolvido com uma arquitetura simples e integrada:
 
 ## 📂 Estrutura do Projeto
 
-```---
-
-# 📊 Dashboard Interativo
-
-### Visão Geral do Sistema
-
-![Dashboard Principal](imagens/dashboard1.png)
-
-**Função:** Tela principal do EcoGuard AI.
-
-**O que mostra:** indicadores ambientais, temperatura, umidade, chuva, nível do rio e alertas automáticos de risco.
-
----
-
-### Distribuição dos Riscos
-
-![Dashboard Riscos](imagens/dashboard2.png)
-
-**Função:** Exibir a classificação dos riscos ambientais.
-
-**O que mostra:** quantidade de registros classificados como Baixo, Médio e Alto risco pelo modelo de Machine Learning.
-
----
-
-### Análise Climática
-
-![Dashboard Clima](imagens/dashboard3.png)
-
-**Função:** Monitoramento das condições ambientais.
-
-**O que mostra:** gráficos de temperatura, umidade, chuva e comportamento dos sensores.
-
----
-
-### Monitoramento Ambiental
-
-![Dashboard Sensores](imagens/dashboard4.png)
-
-**Função:** Apoiar a tomada de decisão.
-
-**O que mostra:** evolução dos dados ambientais utilizados pelo sistema.
-
----
-
-# 📈 Análise dos Sensores
-
-![Gráfico Sensores](imagens/grafico_sensores.png)
-
-**Função:** Visualizar tendências ambientais.
-
-**O que mostra:** comportamento dos sensores ao longo do tempo para identificar situações críticas.
-
----
-
-# 🤖 Machine Learning
-
-![Treinamento do Modelo](imagens/machine_learning1.png)
-
-**Função:** Treinamento do modelo preditivo.
-
-**O que mostra:** algoritmo de Machine Learning responsável pela classificação automática dos riscos ambientais.
-
----
-
-![Resultado da Previsão](imagens/machine_learning2.png)
-
-**Função:** Teste do modelo treinado.
-
-**O que mostra:** previsão automática de risco (Alto, Médio ou Baixo) baseada nos dados recebidos.
-
----
-
-# 🗄️ Banco de Dados PostgreSQL
-
-![Banco PostgreSQL](imagens/postgresql.png)
-
-**Função:** Armazenamento dos dados ambientais.
-
-**O que mostra:** tabela contendo as leituras dos sensores utilizadas pelo sistema.
-
----
-
-# 👁️ Visão Computacional
-
-![Visão Computacional](imagens/visao_computacional.png)
-
-**Função:** Análise visual de folhas.
-
-**O que mostra:** utilização do OpenCV para processamento de imagens agrícolas.
-
----
-
-# ⚠️ Sistema de Alertas
-
-O sistema gera alertas automáticos para:
-
-- Enchentes
-- Deslizamentos
-- Queimadas
-
-Os alertas são exibidos diretamente no Dashboard para auxiliar a tomada de decisão preventiva.
-
----
-
-# 👩‍💻 Desenvolvido por
-
-**Giovanna Gomes Oliveira**
-
-Projeto desenvolvido para aplicação dos conceitos estudados no curso de Inteligência Artificial da FIAP.text
+```text
 EcoGuardAI/
 ├── banco/
 │   └── criar_tabelas.sql
@@ -188,3 +78,114 @@ EcoGuardAI/
 │   └── folha.jpg
 ├── requirements.txt
 └── README.md
+```
+
+---
+
+## 📊 Dashboard Interativo
+
+### Visão Geral do Sistema
+
+![Dashboard Principal](imagens/dashboard1.png)
+
+**Função:** Tela principal do EcoGuard AI.
+
+**O que mostra:** indicadores ambientais, temperatura, umidade, chuva, nível do rio e alertas automáticos de risco.
+
+---
+
+### Distribuição dos Riscos
+
+![Dashboard Riscos](imagens/dashboard2.png)
+
+**Função:** Exibir a classificação dos riscos ambientais.
+
+**O que mostra:** quantidade de registros classificados como baixo, médio e alto risco pelo modelo de Machine Learning.
+
+---
+
+### Análise Climática
+
+![Dashboard Clima](imagens/dashboard3.png)
+
+**Função:** Monitoramento das condições ambientais.
+
+**O que mostra:** gráficos de temperatura, umidade, chuva e comportamento dos sensores.
+
+---
+
+### Monitoramento Ambiental
+
+![Dashboard Sensores](imagens/dashboard4.png)
+
+**Função:** Apoiar a tomada de decisão.
+
+**O que mostra:** evolução dos dados ambientais utilizados pelo sistema.
+
+---
+
+## 📈 Análise dos Sensores
+
+![Gráfico Sensores](imagens/grafico_sensores.png)
+
+**Função:** Visualizar tendências ambientais.
+
+**O que mostra:** comportamento dos sensores ao longo do tempo para identificar situações críticas.
+
+---
+
+## 🤖 Machine Learning
+
+![Treinamento do Modelo](imagens/machine_learning1.png)
+
+**Função:** Treinamento do modelo preditivo.
+
+**O que mostra:** algoritmo de Machine Learning responsável pela classificação automática dos riscos ambientais.
+
+---
+
+![Resultado da Previsão](imagens/machine_learning2.png)
+
+**Função:** Teste do modelo treinado.
+
+**O que mostra:** previsão automática de risco alto, médio ou baixo baseada nos dados recebidos.
+
+---
+
+## 🗄️ Banco de Dados PostgreSQL
+
+![Banco PostgreSQL](imagens/postgresql.png)
+
+**Função:** Armazenamento dos dados ambientais.
+
+**O que mostra:** tabela contendo as leituras dos sensores utilizadas pelo sistema.
+
+---
+
+## 👁️ Visão Computacional
+
+![Visão Computacional](imagens/visao_computacional.png)
+
+**Função:** Análise visual de folhas.
+
+**O que mostra:** utilização do OpenCV para processamento de imagens agrícolas.
+
+---
+
+## ⚠️ Sistema de Alertas
+
+O sistema gera alertas automáticos para:
+
+- Enchentes
+- Deslizamentos
+- Queimadas
+
+Os alertas são exibidos diretamente no Dashboard para auxiliar a tomada de decisão preventiva.
+
+---
+
+## 👩‍💻 Desenvolvido por
+
+**Giovanna Gomes Oliveira**
+
+Projeto desenvolvido para aplicação dos conceitos estudados no curso de Inteligência Artificial da FIAP.
