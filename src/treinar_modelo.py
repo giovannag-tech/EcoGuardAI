@@ -80,4 +80,8 @@ resultado = modelo.predict(novo_dado)
 
 print("\nPREVISÃO DO SISTEMA:")
 
-print(resultado[0])
+print("\n" + "="*40)
+print("PREVISÃO DO SISTEMA")
+print("="*40)
+print(f"RISCO PREVISTO: {resultado[0]}")
+print("="*40)
