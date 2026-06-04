@@ -1,8 +1,8 @@
-# EcoGuard AI
+# 🌱 EcoGuard AI
 
-Sistema inteligente para monitoramento ambiental e prevenção de riscos agrícolas.
+Sistema inteligente de monitoramento ambiental para agricultura utilizando Inteligência Artificial, Machine Learning, PostgreSQL, Visão Computacional e Dashboard Interativo.
 
-## Tecnologias
+## 🚀 Tecnologias Utilizadas
 
 - Python
 - PostgreSQL
@@ -10,25 +10,56 @@ Sistema inteligente para monitoramento ambiental e prevenção de riscos agríco
 - Scikit-Learn
 - Streamlit
 - OpenCV
-- Git/GitHub
+- Git e GitHub
 
-## Funcionalidades
+---
 
-- Geração de dados ambientais
-- Armazenamento em PostgreSQL
-- Machine Learning para classificação de risco
-- Dashboard interativo
-- Visão computacional para análise de folhas
-- Sistema de alertas
+## 📊 Dashboard
 
-## Como executar
+![Dashboard](imagens/dashboard1.png)
 
-pip install -r requirements.txt
+---
 
-python src/gerar_dados.py
+## 🤖 Machine Learning
 
-python src/salvar_banco.py
+Classificação automática de riscos ambientais:
 
-python src/treinar_modelo.py
+- ALTO
+- MÉDIO
+- BAIXO
 
-streamlit run src/dashboard.py
+![Machine Learning](imagens/machine_learning1.png)
+
+---
+
+## 🗄 Banco de Dados PostgreSQL
+
+Armazenamento das leituras dos sensores ambientais.
+
+![PostgreSQL](imagens/postgresql.png)
+
+---
+
+## 👁️ Visão Computacional
+
+Análise automática de folhas através de OpenCV.
+
+![Visão Computacional](imagens/visao_computacional.png)
+
+---
+
+## ⚠️ Sistema de Alertas
+
+Geração automática de alertas de:
+
+- Enchente
+- Deslizamento
+- Queimadas
+
+---
+
+## 👩‍💻 Desenvolvido por
+
+Giovanna Gomes Oliveira
+
+Projeto desenvolvido para aplicação dos conceitos estudados nas fases do curso de Inteligência Artificial da FIAP.
