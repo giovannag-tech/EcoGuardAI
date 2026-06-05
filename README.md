@@ -184,6 +184,81 @@ Os alertas são exibidos diretamente no Dashboard para auxiliar a tomada de deci
 
 ---
 
+## 🎛️ Consolidação do Sistema (Fase 7)
+
+A Fase 7 teve como objetivo integrar todos os módulos desenvolvidos anteriormente em um único sistema executável.
+
+Foi criado um menu principal em Python responsável por centralizar os serviços de:
+
+- Geração de dados simulados
+- Armazenamento no PostgreSQL
+- Machine Learning
+- Sistema de alertas
+- Visão computacional
+- Dashboard interativo
+
+Dessa forma, o usuário consegue acessar todas as funcionalidades do EcoGuard AI através de uma única interface.
+
+### Menu Principal
+
+![Menu Principal](imagens/menu_principal.png)
+
+**Função:** Centralizar todos os módulos do projeto.
+
+**O que mostra:** Interface de navegação desenvolvida em Python permitindo executar cada etapa do sistema de forma integrada.
+
+### Serviços Integrados
+
+| Opção | Serviço |
+|---------|---------|
+| 1 | Gerar dados simulados |
+| 2 | Salvar dados no PostgreSQL |
+| 3 | Treinar modelo de Machine Learning |
+| 4 | Gerar alertas ambientais |
+| 5 | Executar visão computacional |
+| 6 | Abrir dashboard interativo |
+| 0 | Encerrar sistema |
+
+### Benefícios da Consolidação
+
+- Sistema centralizado em um único projeto.
+- Melhor organização dos módulos.
+- Facilidade de manutenção.
+- Integração entre banco de dados, IA e visão computacional.
+- Estrutura compatível com a proposta da Fase 7 da FIAP.
+
+---
+
+## 🎥 Vídeo Demonstrativo
+
+Link do vídeo de apresentação:
+
+**(Adicionar link do YouTube após a gravação)**
+
+---
+
+## 📌 Entrega Fase 7
+
+Itens atendidos nesta entrega:
+
+✅ Integração das fases em um único sistema
+
+✅ Banco de dados PostgreSQL
+
+✅ Machine Learning
+
+✅ Dashboard interativo
+
+✅ Visão computacional
+
+✅ Sistema de alertas
+
+✅ Documentação completa no GitHub
+
+✅ Estrutura organizada em pastas
+
+---
+
 ## 👩‍💻 Desenvolvido por
 
 **Giovanna Gomes Oliveira**
