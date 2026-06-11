@@ -233,7 +233,7 @@ Dessa forma, o usuário consegue acessar todas as funcionalidades do EcoGuard AI
 
 Link do vídeo de apresentação:
 
-**(Adicionar link do YouTube após a gravação)**
+**(https://youtu.be/brWi8_AmpV8)**
 
 ---
 
@@ -261,6 +261,8 @@ Itens atendidos nesta entrega:
 
 ## 👩‍💻 Desenvolvido por
 
-**Giovanna Gomes Oliveira**
+**RM- 567169 Giovanna Gomes Oliveira**
+**RM- 568044 Gabriel Coppola**
+**RM 567250 Cloves Silva Filho**
 
 Projeto desenvolvido para aplicação dos conceitos estudados no curso de Inteligência Artificial da FIAP.
